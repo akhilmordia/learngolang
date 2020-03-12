@@ -1,3 +1,3 @@
-module github.com/akhilmordia/learngolang.git
+module github.com/akhilmordia/learngolang
 
 go 1.14
