@@ -1,6 +1,14 @@
 # learngolang
 snippets created while learning golang
 
+package structure:
+```
+package1(directory):
+	package1.go
+package2(directory):
+	package2.go
+```
+
 installation:
 ```
 github.com/akhilmordia/learngolang v1.0.1 (<-the version that you want to use)
