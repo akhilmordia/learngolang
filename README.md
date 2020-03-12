@@ -9,9 +9,16 @@ package2(directory):
 	package2.go
 ```
 
-installation:
+installation: go.mod
 ```
-github.com/akhilmordia/learngolang v1.0.1 (<-the version that you want to use)
+module main
+
+go 1.14
+
+require (
+	github.com/akhilmordia/learngolang v1.0.1
+	github.com/akhilmordia/learngolang/v2 v2.0.1
+)
 ```
 example code:
 ```golang
@@ -20,7 +27,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/akhilmordia/learngolang/alpha"
+	"github.com/akhilmordia/learngolang/v2/alpha" //note how the path changes after v2
 )
 
 func main() {
