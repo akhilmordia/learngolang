@@ -1,5 +1,5 @@
 # learngolang
-packages and snippets created while learning golang
+packages created while learning golang
 
 package structure:
 ```
